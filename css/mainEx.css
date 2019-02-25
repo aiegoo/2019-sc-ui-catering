@@ -1,0 +1,79 @@
+
+@import '../css/base.css';
+
+.wrap {
+  width: 100%;
+  max-width: 1400px;
+}
+.tops {
+  width: 100%;
+  padding: 12px;
+  position: relative;
+  background-color: beige;
+  box-shadow: 0 4px 8px;
+
+}
+.logo {
+  float: left;
+  letter-spacing: 5px;
+  padding: 20px;
+}
+.navs {
+  float: right;
+  padding: 10px;
+  font-size: 1.2rem;
+  width: 300px;  
+}
+.nav {
+  float: left;
+  padding: 10px;
+  letter-spacing: 4px;
+  cursor: pointer;
+  width: 33.33%;
+}
+.logo:hover {
+  background-color: rgba(138, 43, 226, 0.4);
+}
+.nav:hover {  
+  background-color: rgba(230, 168, 76, 0.4);
+  padding-left: 16px;
+}
+
+.bans {
+  position: relative;
+}
+.ban_tit {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  font-size: 2rem;
+}
+.abouts {
+  margin: 100px auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.about_img {
+  width: 45%; 
+  float: left;
+  margin-right: 25px;
+}
+.about_conts {
+  width: 45%;
+  float:right;
+}
+.about_conts h1 {
+  text-align: center;
+  padding: 20px 10px;
+}
+.about_conts h4 {
+  text-align: center;
+  padding: 10px;
+}
+.about_conts > .p1 {
+  padding: 10px;
+}
+.about_conts > .p2 {
+  background-color: rgba(153,153, 153, 0.3);
+  padding: 10px;
+}
